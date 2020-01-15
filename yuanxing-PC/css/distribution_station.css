@@ -1,0 +1,280 @@
+.banner {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 100;
+}
+
+.banner>img {
+    width: 100%;
+    height: 12rem;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    position: absolute;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.53rem;
+    padding: 0 1.24rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 4.26rem;
+
+}
+
+.nav {
+    width: 11.4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #0C151B;
+    padding: 0 .48rem 0 1.19rem;
+}
+
+.nav>li {
+    position: relative;
+    padding: .1rem;
+    margin-right: 1.12rem;
+}
+
+.nav>li>a {
+    color: #fff;
+    font-size: .2rem;
+
+}
+
+.nav>li:nth-child(2)>a {
+    background-image: -webkit-linear-gradient(90deg, #51BBE7, #68FBA6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav>li:nth-child(5) {
+    margin-left: .3rem;
+    margin-right: .32rem;
+
+}
+
+.nav>li:nth-child(6) {
+    margin-right: 0;
+}
+
+.nav>li>i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .03rem;
+    width: 100%;
+    ;
+    background: -webkit-linear-gradient(90deg, #51BBE7, #68FBA6);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(90deg, #51BBE7, #68FBA6);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(90deg, #51BBE7, #68FBA6);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(90deg, #51BBE7, #68FBA6);
+    /* 标准的语法 */
+}
+
+.nav>li:nth-child(5)>a,
+.nav>li:nth-child(6)>a {
+    padding: .07rem .16rem;
+    border: 1px solid #fff;
+    border-radius: .24rem;
+}
+
+.banner-main {
+    position: absolute;
+    z-index: 200;
+    top: .77rem;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 2.2rem;
+}
+
+.title-1 {
+    font-size: .44rem;
+    text-align: center;
+
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: .52rem;
+}
+
+.title-2>span {
+    font-weight: bold;
+}
+
+.title-3 {
+    text-align: center;
+    font-size: .24rem;
+    margin-top: 1.02rem;
+    line-height: .57rem;
+}
+
+.btn-more {
+    display: block;
+    margin: auto;
+    width: 2.18rem;
+    height: .72rem;
+    color: #fff !important;
+    font-size: .28rem;
+    text-align: center;
+    line-height: .72rem;
+    border: 3px solid #fff;
+    border-radius: .36rem;
+    margin-top: .56rem;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding-top: .77rem;
+}
+
+.select-box {
+    width: 16.72rem;
+    height: 4.25rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 0 .31rem;
+}
+
+.select-box>div,
+.select-box>div>ul {
+    display: flex;
+    align-items: center;
+}
+
+.select-box>div {
+    margin-top: .46rem;
+}
+
+.label {
+    color: #000000;
+    font-size: .21rem;
+    font-weight: bold;
+}
+
+.select-box>div>ul>li {
+    padding: .1rem .2rem;
+    color: #000000;
+    font-size: .21rem
+}
+
+.active-btn {
+    background: #000;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.content-2>ul {
+    height: 10.18rem;
+    padding: .84rem 1.1rem 0;
+}
+
+.content-2>ul>li {
+    width: 3.14rem;
+    height: 2rem;
+    background: #f7f7f7;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-right: .25rem;
+    margin-top: .4rem;
+}
+
+.content-2>ul>li>a {
+    width: 100%;
+    height: 100%;
+}
+
+.content-2>ul>li>a>img {
+    width: 100%;
+}
+
+.content-2>ul>li:nth-child(5n+5) {
+    margin-right: 0;
+}
+
+.active-mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: .18rem;
+    padding: .16rem .19rem;
+    overflow: hidden;
+    transition: bottom .5s;
+    -moz-transition: bottom .5s;
+    /* Firefox 4 */
+    -webkit-transition: bottom .5s;
+    /* Safari 和 Chrome */
+    -o-transition: bottom .5s;
+    /* Opera */
+}
+
+.text-overflow {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.active-mask-hover {
+    font-size: .26rem;
+    padding: .7rem .38rem 0;
+    line-height: .36rem;
+    bottom: 0;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2.14rem;
+    margin-bottom: 1.48rem;
+}
+.foot {
+    color: #fff;
+    background: #000000;
+    padding: .38rem 0;
+    margin-top: .43rem;
+}
+
+.foot>p {
+    text-align: center;
+}
+
+.foot>p>a {
+    color: #fff;
+    padding: .1rem .6rem;
+}
+
+.foot>p:nth-child(1) {
+    margin-bottom: .18rem;
+}
